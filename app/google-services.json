@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508951845219",
+    "project_id": "scopemeal",
+    "storage_bucket": "scopemeal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508951845219:android:5cdc67a7d839ed6ea9db56",
+        "android_client_info": {
+          "package_name": "com.example.scopemeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508951845219-oq5jevn7p99rgvaubib5ek30plqb8lh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scopemeal",
+            "certificate_hash": "ea6e26c3ba7465d0ede3a9e62142aab80917fba6"
+          }
+        },
+        {
+          "client_id": "508951845219-p6n54dc8mjbgeccjgttc5pdtltmu1ojk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqSY0VPjRpNxY4b0idUT6hWlsp4hjuzsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508951845219-p6n54dc8mjbgeccjgttc5pdtltmu1ojk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
