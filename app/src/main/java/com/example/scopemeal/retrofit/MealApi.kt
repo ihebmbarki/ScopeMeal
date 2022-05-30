@@ -2,6 +2,7 @@ package com.example.scopemeal.retrofit
 
 import com.example.scopemeal.pojo.CategoryList
 import com.example.scopemeal.pojo.MealList
+import com.example.scopemeal.pojo.MealsByCategoryList
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -15,5 +16,11 @@ interface MealApi {
     fun getMealDetails(@Query("i")id:String) : Call<MealList>
 
     @GET("filter.php?")
-    fun getPopularItems(@Query("c")  categoryName:String)  : Call<CategoryList>
+    fun getPopularItems(@Query("c")  categoryName:String)  : Call<MealsByCategoryList>
+
+    @GET("categories.php")
+    fun getCategories() : Call<CategoryList>
+
+    @GET("filter.php")
+    fun getMealsByCategory(@Query("c") categoryName: String) : Call<MealsByCategoryList>
 }

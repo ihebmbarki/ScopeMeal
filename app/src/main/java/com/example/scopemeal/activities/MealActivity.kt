@@ -2,9 +2,9 @@ package com.example.scopemeal.activities
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
@@ -59,7 +59,7 @@ class MealActivity : AppCompatActivity() {
                 binding.tvArea.text = "Area :${meal!!.strArea}"
                 binding.tvInstructions.text = meal.strInstructions
 
-                youtubeLink = meal.strYoutube
+                youtubeLink = meal.strYoutube.toString()
             }
 
         })

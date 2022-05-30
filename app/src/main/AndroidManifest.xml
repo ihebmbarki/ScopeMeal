@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.scopemeal">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,8 +14,24 @@
         android:theme="@style/Theme.ScopeMeal"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LoginActivityy"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CategoryMealsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LogActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".activities.MealActivity"
             android:exported="false" />
